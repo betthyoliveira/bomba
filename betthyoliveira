@@ -1,0 +1,16 @@
+contagem >= 10
+
+inicio_tempo = 0
+
+fim_tempo >= 1
+
+time.sleep(5)
+
+print("Iniciando contagem regressiva...")
+
+for i in range(inicio_tempo,fim_tempo + 1):
+  nova_contagem = contagem - i
+  print("nova_contagem_seg")
+  time.sleep(1)
+
+print("Bum!")
